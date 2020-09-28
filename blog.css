@@ -1,0 +1,396 @@
+@media only screen and (min-width:600px){
+body{
+    background-color:#ffcb9a;
+}
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+  display:none;
+}
+.reflection{
+  letter-spacing: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 20%;
+    background-color:#1F2833;
+    top:0;
+    left:0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    letter-spacing: 5px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size:x-large;
+  }
+    
+  li a:hover:not(.active) {
+    background-color: #d1e8e2;
+    color: #1F2833;
+  }
+#page-text{
+    margin-left:10%;
+    padding:10px 100px;
+    height: auto;
+    color:#1F2833;
+    font-family: 'Cairo', sans-serif;
+    grid-column: 2 ;
+    
+}
+.title-cover{
+  background-color:#1F2833;
+  width:60%;
+  left:40%;
+  position:relative;
+  padding:10px;
+  color:white;
+  
+}
+
+#about_photo{
+  margin-left: 50%;
+  padding: 40px;
+  grid-column: 1 ;
+  width: 50%;
+  
+}
+.page-wrapper{
+  display:grid;
+  grid-template-columns: 50% 50%;
+
+
+}
+/*blog page*/
+
+/* nav */
+.reflection-nav-link{
+  color:#ffcb9a;
+  font-size: 20px;
+}
+.reflection-nav{
+  list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 20%;
+    background-color:#1F2833;
+    top:23%;
+    left:0;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reflection{
+  background-color:#1F2833;
+  width:60%;
+  left:40%;
+  position:relative;
+  padding:10px;
+  color:white;
+}
+.break{
+  background-color:#d1e8e2;
+  height:20px;
+  position:fixed;
+  top:20%;
+  left:0;
+  margin:0;
+  padding: 0;
+  width: 20%;
+  overflow: auto;
+}
+a{
+  color:black;
+}
+
+/* blog template*/
+
+all-blogs-wrapper {
+    padding-top: 40px;
+    width: 57vw;
+    margin: auto;
+  }
+  
+  .blog-card-wrapper {
+    margin-bottom: 40px;
+    
+    border: transparent;
+    border-radius: 10px;
+    background-color: #d1e8e2;
+    -webkit-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+    margin-left:23%;
+    margin-right:10px;
+    
+  }
+  
+  .image-wrapper {
+    width: 100;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    
+
+  }
+  .display-wrapper{
+    display:flex;
+    
+    
+  }
+  .blog-image {
+    width: 100%;
+  }
+  
+  .blog-content {
+    margin: 20px;
+  }
+  
+  .information-heading {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .date {
+    float: left;
+    margin-left:10%;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .blog-heading{
+    padding:10px 0px 0px 0px;
+    margin-left:10%;
+    
+  }
+  .blog-details {
+    padding-bottom: 30px;
+    font-family: 'Cairo', sans-serif;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+div.title-cover{
+  display:none;
+}
+  body{
+    background-color:#ffcb9a;
+}
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.reflection{
+  display:none;  
+}
+h3{
+  padding:10px;
+}
+
+
+#page-text{ 
+    padding:10px 10px;
+    height: auto;
+    color:#1F2833;
+    font-family: 'Cairo', sans-serif;
+    grid-column: 1;
+    
+}
+.title-cover{
+  background-color:#1F2833;
+  width:60%;
+  left:40%;
+  position:relative;
+  padding:10px;
+  color:white;
+  
+}
+#page-image{
+  margin-top:15%;
+}
+#about_photo{
+
+  grid-column: 1;
+  width: 50%;
+  margin-top:10%;
+  
+}
+.page-wrapper{
+  display:grid;
+  grid-template-columns:  100%;
+
+
+}
+/*blog page*/
+
+/* nav */
+.reflection-nav-link{
+  color:#ffcb9a;
+  font-size: 20px;
+}
+.reflection-nav{
+  list-style-type: none;
+    margin:0;
+    padding: 0;
+    width: 20%;
+    background-color:#1F2833;
+    top:23%;
+    left:0;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reflection{
+  background-color:#1F2833;
+  width:60%;
+  left:40%;
+  position:relative;
+  padding:10px;
+  color:white;
+}
+.break{
+  display:none;
+}
+a{
+  color:black;
+}
+
+/* blog template*/
+
+all-blogs-wrapper {
+    padding-top: 40px;
+    width: 57vw;
+    margin: auto;
+  }
+  
+  .blog-card-wrapper {
+    margin-bottom: 40px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #d1e8e2;
+    -webkit-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+    margin-left:10px;
+    margin-right:10px;
+    
+  }
+  
+  .image-wrapper {
+    width: 100;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    
+
+  }
+  .display-wrapper{
+    display:flex;
+    
+    
+  }
+  .blog-image {
+    width: 100%;
+  }
+  
+  .blog-content {
+    margin: 20px;
+  }
+  
+  .information-heading {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .date {
+    float: left;
+    margin-left:10%;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  .blog-heading{
+    padding:10px 0px 0px 0px;
+    margin-left:10%;
+    
+  }
+  .blog-details {
+    padding-bottom: 30px;
+    font-family: 'Cairo', sans-serif;
+  }
+  
+/*nav*/
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color:#1F2833;
+  
+  width:100%;
+  top:0;
+  left:0;
+  margin-bottom: 30px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #d1e8e2;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background:#1F2833;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 5%;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ffcb9a;
+  color: black;
+  
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #1F2833;
+  color: #d1e8e2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+}
